@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b20ac81f4956a3045b411b176782f023
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Adventure
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d81ef0ae94b8cde4da2db77cedbdce6c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

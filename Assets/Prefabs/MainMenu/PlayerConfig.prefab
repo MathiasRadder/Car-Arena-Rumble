@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &380889197485347438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7931015009493647788}
+  - component: {fileID: 3542461695210526925}
+  - component: {fileID: 463913892444911074}
+  - component: {fileID: 1136525682303562091}
+  - component: {fileID: 763904605604763226}
+  m_Layer: 0
+  m_Name: PlayerConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7931015009493647788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380889197485347438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2905.4592, y: 558.76624, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3542461695210526925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380889197485347438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: a3435b20c9cfee64e87a5dca956b4f4d,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bf90f833-db46-4344-8a89-11c0992047d7
+    m_ActionName: Player Controller/SteeringMovement[/DualShock4GamepadHID/leftStick]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 816c7c82-2ca9-46ae-8619-23f31eddb2e6
+    m_ActionName: Player Controller/DriveForward[/DualShock4GamepadHID/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9e4c1231-48d4-4360-84c8-d269742ab52c
+    m_ActionName: Player Controller/DriveBackward[/DualShock4GamepadHID/buttonWest]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 463913892444911074}
+        m_TargetAssemblyTypeName: SpawnPlayerSetupMenu, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 0fbeb7dd-6652-46d2-ab9e-d0b7760db4eb
+    m_ActionName: Menu Controller/ChangeColorDown[/DualShock4GamepadHID1/dpad/down]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 463913892444911074}
+        m_TargetAssemblyTypeName: SpawnPlayerSetupMenu, Assembly-CSharp
+        m_MethodName: ChangeMesh
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 272cc0c3-7b06-40a0-8d77-536028428bb4
+    m_ActionName: Menu Controller/ChangeCarLeft[/DualShock4GamepadHID1/dpad/left]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 463913892444911074}
+        m_TargetAssemblyTypeName: SpawnPlayerSetupMenu, Assembly-CSharp
+        m_MethodName: ConfirmButton
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: b5ef1fb0-e890-4aef-9864-add112cfc20c
+    m_ActionName: Menu Controller/Confirm[/DualShock4GamepadHID1/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9a131631-bb15-4346-a103-b8dffec6ba68
+    m_ActionName: Menu Controller/Cancel[/DualShock4GamepadHID1/buttonEast]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 463913892444911074}
+        m_TargetAssemblyTypeName: SpawnPlayerSetupMenu, Assembly-CSharp
+        m_MethodName: ChangeMesh
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2f6a7abc-99fc-493b-83ab-439e4f015326
+    m_ActionName: Menu Controller/ChangeCarRight[/DualShock4GamepadHID1/dpad/right]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 463913892444911074}
+        m_TargetAssemblyTypeName: SpawnPlayerSetupMenu, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 7a0319fb-2bf0-44f1-8627-052157ef458b
+    m_ActionName: Menu Controller/ChangeColorUp[/DualShock4GamepadHID1/dpad/up]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 089c7356-da80-411b-8d7b-a56ca4e68294
+    m_ActionName: Player Controller/UseAbility[/DualShock4GamepadHID/rightShoulder]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a09da6fa-26cb-4a89-93a4-9bca814f589b
+    m_ActionName: Player Controller/Discard[/DualShock4GamepadHID/buttonNorth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e483e7f1-d4af-4308-b60f-f4a25abb7570
+    m_ActionName: Player Controller/LaunchAttack[/DualShock4GamepadHID/rightShoulder]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7dc717d9-c08e-47d2-95f2-9dd763ac6601
+    m_ActionName: End Controller/GoBack[/DualShock4GamepadHID/start]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Controller
+  m_DefaultActionMap: Menu Controller
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &463913892444911074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380889197485347438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5416287b27bd644d8619da5d85a0688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _setupMenuPrefab: {fileID: 2366146515604718881, guid: deddcf4ee50f59d4b85628aa4a898093,
+    type: 3}
+  _input: {fileID: 3542461695210526925}
+--- !u!114 &1136525682303562091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380889197485347438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53338ea29e0438340990fdccd6b7f963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &763904605604763226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380889197485347438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5abe4a38d805f479f0974bd86f0a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
